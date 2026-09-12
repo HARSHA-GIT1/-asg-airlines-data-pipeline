@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+.databrickscfg
+
+# Local data - keep directory structure only
+/data/raw/*
+!/data/raw/.gitkeep
+/data/bronze/*
+!/data/bronze/.gitkeep
+/data/silver/*
+!/data/silver/.gitkeep
+/data/gold/*
+!/data/gold/.gitkeep
+/data/rejected/*
+!/data/rejected/.gitkeep
+
+# Development / scratch files
+/scratch/
+
+# Power BI temporary/cache files
+*.pbix.cache
+*.pbit.cache
+*.abf
+*.tmp
+~$*.pbix
+~$*.xlsx
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
